@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estilos.css">
+    <title>Nosotros</title>
+</head>
+
+<body class="colorcotiza">
+    <!-- Navbar inicia -->
+    <nav class="navbar navbar-expand-md  navbar-dark bgnav">
+        <!-- Brand -->       
+        <a class="navbar-brand logo1" href="../index.html">Somos tus <span class="colorspan logo"> Asesores de Seguros</span></a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Cotiza tu seguro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./novedades.html">Novedades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navbar Fin -->
+
+    <section class="sectionB margin-top">
+        <form action="envio.php" id="cotiza-tu-seguro">
+            <fieldset>
+                <h2> Cotiza <span class="colorspan"  >tu Seguro </span></h2>
+                <label class="label1" for="nombre">Nombre</label>
+                <input class="label" type="text" id="nombre" placeholder="Lautaro Leiva">
+                <br>
+                <br>
+                <label for="tipo">Tipo de seguro</label>
+                <select class="label" name="tipo id"="tipo">					
+                    <option value="Auto">Auto</option>
+                    <option value="Moto">Moto</option>
+                    <option value="Casa">Casa</option>
+                    <option value="ART">ART</option>				
+                </select>
+                <br>
+                <br>
+                <label for="celular">celular</label>
+                <input class="label" type="number" id="celular" placeholder="2225555555">
+            </fieldset>
+        </form>
+        <button type="button" class="btn btn-success">Pedir cotización</button>		
+        <br>
+        <label for="mensaje" >A la brevedad uno de nuestros asesores se estará comunicando</label>
+    </section>
+
+    <!-- Inicia Footer -->
+    <footer>
+        <p>Todos los derechos reservados por copyright</p>
+        <p>Desarrollado por Lautaro</p>
+        <div class="redes">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+    </footer>
+    <!-- Termina footer -->
+</body>
